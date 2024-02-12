@@ -750,21 +750,21 @@ Blog Page
 }
 @media screen and (max-width: 468px) {
   .leap-container {
-    width: 18rem;
-    min-height: 20rem;
+    width: 19rem;
+    min-height: 22rem;
     padding: 1rem;
   }
   .leap-container h4 {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   label,
   input {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .title,
   .title1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   .alert {
     font-size: 0.7rem;
@@ -774,11 +774,11 @@ Blog Page
     /* border: 2px solid red; */
   }
   .btn {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     /* width: 40%; */
   }
   .sidebar-link {
     line-height: 1.1;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 }
