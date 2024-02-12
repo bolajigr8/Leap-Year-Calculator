@@ -748,6 +748,11 @@ Blog Page
     grid-template-rows: 1fr 170px 1fr;
   }
 }
+/*
+=============== 
+Small mobile screens
+===============
+*/
 @media screen and (max-width: 468px) {
   .leap-container {
     width: 19rem;
@@ -780,5 +785,8 @@ Blog Page
   .sidebar-link {
     line-height: 1.1;
     font-size: 1.5rem;
+  }
+  .card {
+    height: 33.5rem;
   }
 }
