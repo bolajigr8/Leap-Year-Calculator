@@ -789,4 +789,7 @@ Small mobile screens
   .card-footer {
     margin-top: 2rem;
   }
+  .sidebar-link {
+    padding: 0.9rem 1.6rem;
+  }
 }
