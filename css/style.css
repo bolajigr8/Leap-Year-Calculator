@@ -784,6 +784,9 @@ Small mobile screens
     font-size: 1.5rem;
   }
   .card {
-    height: 33.5rem;
+    height: 36rem;
+  }
+  .card-footer {
+    margin-top: 2rem;
   }
 }
