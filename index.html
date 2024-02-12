@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leap Year Calculator</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./fontawesome-free-6.5.1-web/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+  </head>
+  <body>
+    <!-- nav-btn -->
+    <span class="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+    <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <div>
+              <div class="logo"> leap year </div>
+              <div class="logo1">
+            <span class="logo-calc"><i class="fa fa-calculator"></i></span> calculator</div>
+            </div>
+            
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="index.html" class="scroll-link">calculator</a>
+              </li>
+              <li>
+                <a href="range.html" class="scroll-link">range calc.</a>
+              </li>
+              <li>
+                <a href="blog.html" class="scroll-link">blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- end of navbar -->
+    <!-- sidebar  -->
+      <aside class="sidebar">
+        <!-- sidebar header -->
+        <div class="sidebar-header">
+          <button class="close-btn" id="close-btn">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <!-- end of nav header -->
+
+        <div class="sidebar-center">
+          <!-- nav links -->
+          <ul class="sidebar-links">
+            <li><a href="index.html" class="sidebar-link">calculator</a></li>
+            <li><a href="range.html" class="sidebar-link">Range Calc.</a></li>
+            <li><a href="blog.html" class="sidebar-link">blog</a></li>
+            
+          </ul>
+          <!-- end of nav links -->
+          
+        </div>
+      </aside>
+      <!-- end of sidebar  -->
+    <!-- hero -->
+    <section class="hero">
+      <div class="hero-center">
+       <div class="hero-title">
+        <h2 class="title">leap year</h2>
+       <h2 class="title1">calculator</h2>
+       <p>This leap year calculator tool is used to find out whether the input year is a leap year or not.
+Also its possible to generate any range of leap years between two input years.</p>
+       <a href="blog.html" class="btn hero-btn">read more</a>
+       </div>
+        
+        <!-- leap conatainer -->
+        <article class="leap-container">
+          <p class="alert"></p>
+          <div class="single-leap">
+            
+            <h4>check for leap year:</h4>
+            <form class="form">
+              <label for="label">year:</label>
+              <input class="text" placeholder="e.g. 2020" type="text" />
+              <label  for="label">is</label>
+              <textarea  name="result" id="result-text" ></textarea>
+              
+              <!-- btns --> 
+              <div class="btn-container">
+                <button type="submit" class="btn submit-btn">check year</button>
+                <button type="button" class="btn random-btn">random</button>
+                <button type="button" class="btn refresh-btn  ">refresh</button>
+              </div>
+            </form>
+          </div>
+          </div>
+        </article>
+        <!-- end of leap conatainer -->
+      </div>
+    </section>
+    <!-- end of hero -->
+    <!-- app js -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
